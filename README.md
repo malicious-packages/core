@@ -14,9 +14,9 @@ TEST_PACKAGE=react@16 npm run test:integration # runs integration tests for a sp
 
 ## MongoDB
 MongoDB is used to store reports for processed packages. Each report has one of the following statuses:
-- unverified - package has suspicious activity and needs to be checked manually
-- auto_verified - package has no suspicious activity
-- verified / unsound / malicious could be assigned to a report after a manual check
+- `unverified` - package has suspicious activity and needs to be checked manually
+- `auto_verified` - package has no suspicious activity
+- `verified` / `unsound` / `malicious` could be assigned to a report after a manual check
 
 Use the following connection string to connect to local MongoDB instance: mongodb://root:123456@mongodb
 
