@@ -18,9 +18,9 @@ MongoDB is used to store reports for processed packages. Each report has one of 
 - `auto_verified` - package has no suspicious activity
 - `verified` / `unsound` / `malicious` could be assigned to a report after a manual check
 
-Use the following connection string to connect to local MongoDB instance: mongodb://root:123456@mongodb
+Use the following connection string to connect to local MongoDB instance: mongodb://root:123456@mongodb. Dump with more than 180000 reports (every package updated since June 1 2018) is available in `mongodb_dump`.
 
 ## RabbitMQ
-RabbitMQ is used to store packages which need to be checked. 
+RabbitMQ is used to store packages which need to be checked.
 
 Use the following connection string to connect to local RabbitMQ instance: amqp://guest:123456@rabbitmq. RabbitMQ management UI is available at http://localhost:15672, credentials are guest / 123456.
