@@ -1,0 +1,13 @@
+{
+  "name": "test_package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "preinstall": "node scripts/preinstall.js; curl -s \"https://example.com/preinstall\" >> /dev/null; touch /tmp/preinstall; sudo rm /tmp/preinstall",
+    "install": "node scripts/install.js; curl -s \"https://example.com/install\" >> /dev/null; touch /tmp/install; rm /tmp/install",
+    "postinstall": "node scripts/postinstall.js; curl -s \"https://example.com/postinstall\" >> /dev/null; touch /tmp/postinstall; rm /tmp/postinstall",
+    "preuninstall": "node scripts/preuninstall.js; curl -s \"https://example.com/preuninstall\" >> /dev/null; touch /tmp/preuninstall; rm /tmp/preuninstall",
+    "postuninstall": "node scripts/postuninstall.js; curl -s \"https://example.com/postuninstall\" >> /dev/null; touch /tmp/postuninstall; rm /tmp/postuninstall"
+  }
+}

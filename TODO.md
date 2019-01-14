@@ -1,0 +1,7 @@
+- Detect modifying methods of window objects
+- Detect accesing missing properties of window object
+- Detect requiring missing packages
+- Detect network requests during initialization
+- Detect filesystem activity during initialization
+- Prevent setTimeout tricks
+- handle EBADPLATFORM errors (node-linux-armv7l)

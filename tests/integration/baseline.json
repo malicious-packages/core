@@ -1,0 +1,572 @@
+{
+    "InstallScripts": [
+        {
+            "type": "NetworkRequest",
+            "url": "https://example.com/preinstall__script",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                "Host": "example.com",
+                "Connection": "close"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "Accept-Ranges": "bytes",
+                "Cache-Control": "max-age=604800",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Mon, 14 Jan 2019 09:27:26 GMT",
+                "Expires": "Mon, 21 Jan 2019 09:27:26 GMT",
+                "Last-Modified": "Mon, 07 Jan 2019 13:43:25 GMT",
+                "Server": "ECS (dca/24D1)",
+                "Vary": "Accept-Encoding",
+                "X-Cache": "404-HIT",
+                "Content-Length": "1270",
+                "Connection": "close"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "NetworkRequest",
+            "url": "https://93.184.216.34/preinstall",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                ":authority": "example.com",
+                "user-agent": "curl/7.52.1",
+                "accept": "*/*"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "accept-ranges": "bytes",
+                "cache-control": "max-age=604800",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Mon, 14 Jan 2019 09:27:27 GMT",
+                "expires": "Mon, 21 Jan 2019 09:27:27 GMT",
+                "last-modified": "Mon, 07 Jan 2019 13:43:26 GMT",
+                "server": "ECS (dca/24D7)",
+                "vary": "Accept-Encoding",
+                "x-cache": "404-HIT",
+                "content-length": "1270"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "NetworkRequest",
+            "url": "https://example.com/install__script",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                "Host": "example.com",
+                "Connection": "close"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "Accept-Ranges": "bytes",
+                "Cache-Control": "max-age=604800",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Mon, 14 Jan 2019 09:27:30 GMT",
+                "Expires": "Mon, 21 Jan 2019 09:27:30 GMT",
+                "Last-Modified": "Mon, 07 Jan 2019 13:43:29 GMT",
+                "Server": "ECS (dca/2472)",
+                "Vary": "Accept-Encoding",
+                "X-Cache": "404-HIT",
+                "Content-Length": "1270",
+                "Connection": "close"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "NetworkRequest",
+            "url": "https://93.184.216.34/install",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                ":authority": "example.com",
+                "user-agent": "curl/7.52.1",
+                "accept": "*/*"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "accept-ranges": "bytes",
+                "cache-control": "max-age=604800",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Mon, 14 Jan 2019 09:27:36 GMT",
+                "expires": "Mon, 21 Jan 2019 09:27:36 GMT",
+                "last-modified": "Mon, 07 Jan 2019 13:43:30 GMT",
+                "server": "ECS (dca/53DB)",
+                "vary": "Accept-Encoding",
+                "x-cache": "404-HIT",
+                "content-length": "1270"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "NetworkRequest",
+            "url": "https://example.com/postinstall__script",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                "Host": "example.com",
+                "Connection": "close"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "Accept-Ranges": "bytes",
+                "Cache-Control": "max-age=604800",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Mon, 14 Jan 2019 09:27:38 GMT",
+                "Expires": "Mon, 21 Jan 2019 09:27:38 GMT",
+                "Last-Modified": "Mon, 07 Jan 2019 13:43:33 GMT",
+                "Server": "ECS (dca/24DC)",
+                "Vary": "Accept-Encoding",
+                "X-Cache": "404-HIT",
+                "Content-Length": "1270",
+                "Connection": "close"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "NetworkRequest",
+            "url": "https://93.184.216.34/postinstall",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                ":authority": "example.com",
+                "user-agent": "curl/7.52.1",
+                "accept": "*/*"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "accept-ranges": "bytes",
+                "cache-control": "max-age=604800",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Mon, 14 Jan 2019 09:27:39 GMT",
+                "expires": "Mon, 21 Jan 2019 09:27:39 GMT",
+                "last-modified": "Mon, 07 Jan 2019 13:43:34 GMT",
+                "server": "ECS (dca/24E0)",
+                "vary": "Accept-Encoding",
+                "x-cache": "404-HIT",
+                "content-length": "1270"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/preinstall__script"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/preinstall__script_write"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/preinstall__script"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/curl",
+            "args": [
+                "curl",
+                "-s",
+                "https://example.com/preinstall"
+            ]
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/touch",
+            "args": [
+                "touch",
+                "/tmp/preinstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/preinstall"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/sudo",
+            "args": [
+                "sudo",
+                "rm",
+                "/tmp/preinstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/etc/passwd"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/proc/sys/kernel/ngroups_max"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/etc/group"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/proc/self/stat"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/etc/sudoers"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/etc/sudoers.d"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/etc/sudoers.d/README"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/etc/login.defs"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/var/run/utmp"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/proc/self/fd"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/bin/rm",
+            "args": [
+                "rm",
+                "/tmp/preinstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/preinstall"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/install__script"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/install__script_write"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/install__script"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/curl",
+            "args": [
+                "curl",
+                "-s",
+                "https://example.com/install"
+            ]
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/touch",
+            "args": [
+                "touch",
+                "/tmp/install"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/install"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/bin/rm",
+            "args": [
+                "rm",
+                "/tmp/install"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/install"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/postinstall__script"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/postinstall__script_write"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/postinstall__script"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/curl",
+            "args": [
+                "curl",
+                "-s",
+                "https://example.com/postinstall"
+            ]
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/touch",
+            "args": [
+                "touch",
+                "/tmp/postinstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/postinstall"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/bin/rm",
+            "args": [
+                "rm",
+                "/tmp/postinstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/postinstall"
+        }
+    ],
+    "UninstallScripts": [
+        {
+            "type": "NetworkRequest",
+            "url": "https://example.com/preuninstall__script",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                "Host": "example.com",
+                "Connection": "close"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "Accept-Ranges": "bytes",
+                "Cache-Control": "max-age=604800",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Mon, 14 Jan 2019 09:27:45 GMT",
+                "Expires": "Mon, 21 Jan 2019 09:27:45 GMT",
+                "Last-Modified": "Mon, 07 Jan 2019 13:43:39 GMT",
+                "Server": "ECS (dca/2493)",
+                "Vary": "Accept-Encoding",
+                "X-Cache": "404-HIT",
+                "Content-Length": "1270",
+                "Connection": "close"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "NetworkRequest",
+            "url": "https://93.184.216.34/preuninstall",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                ":authority": "example.com",
+                "user-agent": "curl/7.52.1",
+                "accept": "*/*"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "accept-ranges": "bytes",
+                "cache-control": "max-age=604800",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Mon, 14 Jan 2019 09:27:46 GMT",
+                "expires": "Mon, 21 Jan 2019 09:27:46 GMT",
+                "last-modified": "Mon, 07 Jan 2019 13:43:40 GMT",
+                "server": "ECS (dca/24A7)",
+                "vary": "Accept-Encoding",
+                "x-cache": "404-HIT",
+                "content-length": "1270"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/preuninstall__script"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/preuninstall__script_write"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/preuninstall__script"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/curl",
+            "args": [
+                "curl",
+                "-s",
+                "https://example.com/preuninstall"
+            ]
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/touch",
+            "args": [
+                "touch",
+                "/tmp/preuninstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/preuninstall"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/bin/rm",
+            "args": [
+                "rm",
+                "/tmp/preuninstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/preuninstall"
+        },
+        {
+            "type": "NetworkRequest",
+            "url": "https://example.com/postuninstall__script",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                "Host": "example.com",
+                "Connection": "close"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "Accept-Ranges": "bytes",
+                "Cache-Control": "max-age=604800",
+                "Content-Type": "text/html; charset=UTF-8",
+                "Date": "Mon, 14 Jan 2019 09:27:50 GMT",
+                "Expires": "Mon, 21 Jan 2019 09:27:50 GMT",
+                "Last-Modified": "Mon, 07 Jan 2019 13:43:45 GMT",
+                "Server": "ECS (dca/2470)",
+                "Vary": "Accept-Encoding",
+                "X-Cache": "404-HIT",
+                "Content-Length": "1270",
+                "Connection": "close"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "NetworkRequest",
+            "url": "https://93.184.216.34/postuninstall",
+            "requestMethod": "GET",
+            "requestHeaders": {
+                ":authority": "example.com",
+                "user-agent": "curl/7.52.1",
+                "accept": "*/*"
+            },
+            "requestBody": "",
+            "status": 404,
+            "responseHeaders": {
+                "accept-ranges": "bytes",
+                "cache-control": "max-age=604800",
+                "content-type": "text/html; charset=UTF-8",
+                "date": "Mon, 14 Jan 2019 09:27:51 GMT",
+                "expires": "Mon, 21 Jan 2019 09:27:51 GMT",
+                "last-modified": "Mon, 07 Jan 2019 13:43:47 GMT",
+                "server": "ECS (dca/249F)",
+                "vary": "Accept-Encoding",
+                "x-cache": "404-HIT",
+                "content-length": "1270"
+            },
+            "responseBody": "<!doctype html>\\n<html>\\n<head>\\n    <title>Example Domain</title>\\n\\n    <meta charset=\"utf-8\" />\\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\\n    <style type=\"text/css\">\\n    body {\\n        background-color: #f0f0f2;\\n        margin: 0;\\n        padding: 0;\\n        font-family: \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\\n        \\n    }\\n    div {\\n        width: 600px;\\n        margin: 5em auto;\\n        padding: 50px;\\n        background-color: #fff;\\n        border-radius: 1em;\\n    }\\n    a:link, a:visited {\\n        color: #38488f;\\n        text-decoration: none;\\n    }\\n    @media (max-width: 700px) {\\n        body {\\n            background-color: #fff;\\n        }\\n        div {\\n            width: auto;\\n            margin: 0 auto;\\n            border-radius: 0;\\n            padding: 1em;\\n        }\\n    }\\n    </style>    \\n</head>\\n\\n<body>\\n<div>\\n    <h1>Example Domain</h1>\\n    <p>This domain is established to be used for illustrative examples in documents. You may use this\\n    domain in examples without prior coordination or asking for permission.</p>\\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\\n</div>\\n</body>\\n</html>\\n"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/postuninstall__script"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/postuninstall__script_write"
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/postuninstall__script"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/curl",
+            "args": [
+                "curl",
+                "-s",
+                "https://example.com/postuninstall"
+            ]
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/usr/bin/touch",
+            "args": [
+                "touch",
+                "/tmp/postuninstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Access",
+            "fileName": "/tmp/postuninstall"
+        },
+        {
+            "type": "CommandExecution",
+            "commandName": "/bin/rm",
+            "args": [
+                "rm",
+                "/tmp/postuninstall"
+            ]
+        },
+        {
+            "type": "FilesystemAccess",
+            "operationType": "Remove",
+            "fileName": "/tmp/postuninstall"
+        }
+    ],
+    "Initialization": [
+        {
+            "type": "OverridingProperty",
+            "moduleName": "crypto",
+            "propertyName": "randomBytes"
+        }
+    ]
+}

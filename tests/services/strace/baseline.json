@@ -1,0 +1,87 @@
+[
+    {
+        "type": "Execute",
+        "commandName": "/usr/local/bin/npm",
+        "args": [
+            "npm",
+            "run",
+            "--prefix",
+            "/opt/checker/node_modules/test_package",
+            "postuninstall"
+        ]
+    },
+    {
+        "type": "Execute",
+        "commandName": "/usr/local/bin/node",
+        "args": [
+            "node",
+            "/usr/local/bin/npm",
+            "run",
+            "--prefix",
+            "/opt/checker/node_modules/test_package",
+            "postuninstall"
+        ]
+    },
+    {
+        "type": "Execute",
+        "commandName": "/bin/sh",
+        "args": [
+            "sh",
+            "-c",
+            "node scripts/postuninstall.js; curl -s \\"
+        ]
+    },
+    {
+        "type": "Execute",
+        "commandName": "/usr/local/bin/node",
+        "args": [
+            "node",
+            "scripts/postuninstall.js"
+        ]
+    },
+    {
+        "type": "Access",
+        "fileName": "/tmp/postuninstall__script"
+    },
+    {
+        "type": "Access",
+        "fileName": "/tmp/postuninstall__script_write"
+    },
+    {
+        "type": "Remove",
+        "fileName": "/tmp/postuninstall__script"
+    },
+    {
+        "type": "Execute",
+        "commandName": "/usr/bin/curl",
+        "args": [
+            "curl",
+            "-s",
+            "https://example.com/postuninstall"
+        ]
+    },
+    {
+        "type": "Execute",
+        "commandName": "/usr/bin/touch",
+        "args": [
+            "touch",
+            "/tmp/postuninstall"
+        ]
+    },
+    {
+        "type": "Access",
+        "fileName": "/tmp/postuninstall"
+    },
+    {
+        "type": "Execute",
+        "commandName": "/bin/rm",
+        "args": [
+            "rm",
+            "/tmp/postuninstall"
+        ]
+    },
+    {
+        "type": "Remove",
+        "fileName": "/tmp/postuninstall"
+    }
+]

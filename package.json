@@ -1,0 +1,75 @@
+{
+  "name": "@malicious-packages/core",
+  "version": "0.1.0",
+  "author": "Vladimir Tikhonov",
+  "license": "ISC",
+  "jest": {
+    "testRegex": "\\.*",
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "modulePaths": [
+      "<rootDir>/src"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "_moduleDirectories": [
+    "src"
+  ],
+  "scripts": {
+    "start:dev": "docker-compose stop && docker-compose build && docker-compose up",
+    "start:consumer": "node src/consumer",
+    "start:producer": "node src/producer",
+    "start:checker": "node src/checker",
+    "start:runner": "node src/runner",
+    "build": "tsc",
+    "lint": "npm run lint:eslint && npm run lint:tslint && npm run lint:prettier",
+    "lint:eslint": "eslint \"**/*.js\"",
+    "lint:tslint": "tslint --project tsconfig.json \"**/*.ts\"",
+    "lint:prettier": "prettier --list-different \"**/*.{js,ts}\"",
+    "test": "jest \"\\.spec\\.ts$\"",
+    "test:integration": "jest \"integration/run.ts$\""
+  },
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "envalid": "^4.1.4",
+    "lodash": "^4.17.11",
+    "longjohn": "^0.2.12",
+    "module-alias": "^2.1.0",
+    "mongodb": "^3.1.10",
+    "node-fetch": "^2.3.0",
+    "tmp": "0.0.33"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.9",
+    "@types/jest": "^23.3.10",
+    "@types/lodash": "^4.14.119",
+    "@types/mongodb": "^3.1.17",
+    "@types/node": "^10.12.12",
+    "@types/node-fetch": "^2.1.4",
+    "@types/tmp": "0.0.33",
+    "eslint": "^5.11.1",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.2.2"
+  }
+}
